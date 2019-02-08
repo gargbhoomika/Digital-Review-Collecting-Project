@@ -10,7 +10,7 @@ def hello():
 
 def data_collect():
     email = request.form["email"]
-    password = request.form["pass"]
+    password = request.form["pass"]  
     print(email,password)
     return render_template("index.html")
 
